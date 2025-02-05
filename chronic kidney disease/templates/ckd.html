@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chronic kidney disease</title>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h3{
+        padding-left:50px;
+        padding-top: 20px;
+    }
+    #input{
+        margin-right: 10%;
+    }
+    button{
+        margin-left:45%;
+        background-color: rgb(55, 165, 71);
+    }
+</style>
+        
+</head>
+<body>
+    <img src="Human-kidney-on-scientific-background-1090830664_3600x2400.jpeg">
+    <form>
+        <h3>Chronic Kidney Disease</h3>
+        <table>
+            <tr>
+                <td>Age<br><input type="text" name="age" placeholder="enter age"></td>
+                <td>BP<br><input type="text" name="bp" placeholder="enter bp" ></td>
+            </tr><br>
+            <tr>
+                <td>SU<br><input type="text" name="su" placeholder="enter SU" ></td>
+                <td>RBC<br><input type="text" name="rbc" placeholder="enter rbc"></td>
+            </tr>
+            <tr>
+                <td>BGC<br><input type="text" name="bgc" placeholder="enter bgc" ></td>
+                <td>BU<br><input type="text" name="bu" placeholder="enter bu"></td>
+            </tr>
+            <tr>
+                <td>SOD<br><input type="text" name="sod" placeholder="enter sod" ></td>
+                <td>POD<br><input type="text" name="pod" placeholder="enter pod"></td>
+            </tr><br>
+            <tr>
+                <td>Hemo<br><input type="text" name="hemo" placeholder="enter hemo" ></td>
+                <td>RC<br><input type="text" name="rc" placeholder="enter rc"></td>
+            </tr>
+            <tr>
+                <td>DM<br>
+            <input type="text" name="dm" placeholder="enter dm" ></td>
+        </tr>
+    </table>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
